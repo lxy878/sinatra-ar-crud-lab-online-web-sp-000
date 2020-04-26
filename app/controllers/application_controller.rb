@@ -36,7 +36,7 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
 
-  post '/acticles/:id' do
+  post '/articles/:id' do
 
     puts params
     binding.pry
