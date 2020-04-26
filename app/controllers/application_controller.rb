@@ -36,7 +36,7 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
 
-  patch '/acticles/:id' do
+  post '/acticles/:id' do
 
     "patch"
   end
