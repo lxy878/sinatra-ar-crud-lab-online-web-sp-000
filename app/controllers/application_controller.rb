@@ -39,5 +39,6 @@ class ApplicationController < Sinatra::Base
   post '/acticles/:id' do
 
     puts params
+    binding.pry
   end
 end
