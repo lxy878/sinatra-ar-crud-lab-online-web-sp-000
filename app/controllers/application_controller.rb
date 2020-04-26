@@ -38,7 +38,6 @@ class ApplicationController < Sinatra::Base
 
   post '/articles/:id' do
 
-    puts params
-    binding.pry
+    'post'
   end
 end
