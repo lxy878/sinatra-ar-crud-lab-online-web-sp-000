@@ -37,7 +37,6 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/acticles/:id' do
-
-    "patch"
+    
   end
 end
