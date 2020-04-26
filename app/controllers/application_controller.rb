@@ -9,7 +9,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    erb :show
   end
 
   get '/articles/new' do
@@ -20,6 +19,9 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
 
+  get '/articles' do
+    erb :index
+  end
   get '/articles/:id' do
 
   end
