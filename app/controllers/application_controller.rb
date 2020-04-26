@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/articles' do
-    
+    puts params.inspect
     erb :show
   end
 
