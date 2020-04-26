@@ -38,6 +38,6 @@ class ApplicationController < Sinatra::Base
 
   patch '/acticles/:id' do
 
-    "Hello World"
+    
   end
 end
