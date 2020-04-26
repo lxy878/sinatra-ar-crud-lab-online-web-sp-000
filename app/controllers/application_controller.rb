@@ -32,7 +32,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/acticles/:id/edit' do
-    
+    erb :edie
   end
 
 end
