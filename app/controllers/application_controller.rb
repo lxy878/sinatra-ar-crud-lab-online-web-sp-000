@@ -31,4 +31,6 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
 
+  get '/acticles/:id/edit'
+
 end
