@@ -32,6 +32,8 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/acticles/:id/edit' do
+
+
     
   end
 
