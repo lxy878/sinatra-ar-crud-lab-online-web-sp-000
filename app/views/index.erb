@@ -2,4 +2,6 @@
 
 <ul>
   <% @articles.each do |article|%>
+  <li><a href="/articles/<%= article.id %>"></a></li>
+  <% end %>
 </ul>
