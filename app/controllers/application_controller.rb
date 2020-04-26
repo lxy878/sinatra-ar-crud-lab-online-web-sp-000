@@ -23,7 +23,6 @@ class ApplicationController < Sinatra::Base
 
   get '/articles' do
     @articles = Article.all
-    binding.pry
     erb :index
   end
 
