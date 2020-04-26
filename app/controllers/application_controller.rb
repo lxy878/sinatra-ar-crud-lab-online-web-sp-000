@@ -38,6 +38,6 @@ class ApplicationController < Sinatra::Base
 
   patch '/articles/:id' do
 
-    'post'
+    'patch'
   end
 end
