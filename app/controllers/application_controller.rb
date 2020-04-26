@@ -17,6 +17,7 @@ class ApplicationController < Sinatra::Base
 
   post '/articles' do
     @article = Article.new(params).save
+    binding.pry
     erb :show
   end
 
